@@ -1,5 +1,3 @@
-if (module.hot) {
-  module.hot.accept();
+export function App() {
+  return <h1>Hello, Parcel!</h1>;
 }
-
-console.log('hello world')
